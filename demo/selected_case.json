@@ -1,0 +1,11 @@
+{
+  "current_shot": "11766",
+  "reference_shot": "11767",
+  "state_similarity": 0.44,
+  "direction_similarity": -0.9077,
+  "combined_score": 0.22,
+  "final_label": "misleading state-only match",
+  "confidence": "high",
+  "verification_note": "moderate or strong state resemblance is overridden by strongly opposing approach direction",
+  "next_check": "review additional magnetic fluctuation channels before treating this as a reusable prior-risk case"
+}
