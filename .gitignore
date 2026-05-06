@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Python env files
+.env
+.env.*
+
+# Large local data / extracted shots
+tmp_*/
+*.zip
+
+# Keep repo light
+data.part1.zip
+
+# Optional: local outputs
+*.csv
+*.parquet
+*.zarr
