@@ -4,9 +4,9 @@ export default function HeroSection() {
       <div className="hero-content centered">
         <div className="powered-pill">⚡ Powered by Google Gemma 4</div>
 
-        <p className="eyebrow">Gemma 4 Good Hackathon · Safety & Trust</p>
+        <p className="eyebrow">Safety & Trust</p>
 
-        <h1>Plasma Memory Trust</h1>
+        <h2>Gemma 4 Plasma Memory Trust</h2>
 
         <p className="tagline">
           Direction-aware plasma failure-memory for trustworthy scientific
