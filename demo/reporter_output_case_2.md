@@ -1,0 +1,4 @@
+- **Summary**: The comparison between current shot 11766 and reference shot 11768 is classified as partial / uncertain.
+- **Why**: There is a strong state resemblance (0.8044), indicating that the instantaneous plasma parameters are highly similar. However, the direction similarity is weak and slightly negative (-0.1279), meaning the approach or evolution of the shots does not align. The resulting combined score (0.4022) reflects this divergence between state and trajectory.
+- **Uncertainty**: Confidence is medium. While state resemblance exists, the direction compatibility is not strong enough for a confident reusable match. The evidence is mixed, and the result should not be treated as a confirmed failure-memory match.
+- **Suggested next check**: Inspect nearby temporal signal evolution and auxiliary diagnostics before reuse.

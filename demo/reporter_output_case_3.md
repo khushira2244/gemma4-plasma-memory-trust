@@ -1,0 +1,4 @@
+- **Summary:** Reference shot 11768 is rejected as a valid comparison for current shot 11767.
+- **Why:** The comparison yielded a state similarity of -0.0376 and a direction similarity of 0.0591, resulting in a combined score of 0.0108. These values indicate insufficient similarity for a reusable failure-memory match.
+- **Uncertainty:** Confidence is medium. The near-zero combined score reflects a lack of meaningful alignment between the two plasma shots in both state and trajectory.
+- **Suggested next check:** Search for alternative prior cases with closer trajectory compatibility.

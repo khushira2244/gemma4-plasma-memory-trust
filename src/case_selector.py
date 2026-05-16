@@ -79,7 +79,7 @@ def main() -> None:
 
     # Change mode here when needed:
     # misleading | partial | reject | highest_confidence
-    mode = "misleading"
+    mode = "partial"
 
     cases = load_cases(input_path)
     selected = select_case(cases, mode=mode)

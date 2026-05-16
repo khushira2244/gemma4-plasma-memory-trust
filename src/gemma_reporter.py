@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parent.parent
 PROMPT_PATH = ROOT / "prompts" / "gemma_report_prompt.txt"
 INPUT_PATH = ROOT / "demo" / "verified_case.json"
-OUTPUT_PATH = ROOT / "demo" / "reporter_output_case_1.md"
+OUTPUT_PATH = ROOT / "demo" / "reporter_output_case_2.md"
 
 
 def load_text(path: Path) -> str:

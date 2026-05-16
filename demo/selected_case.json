@@ -1,11 +1,11 @@
 {
   "current_shot": "11766",
-  "reference_shot": "11767",
-  "state_similarity": 0.44,
-  "direction_similarity": -0.9077,
-  "combined_score": 0.22,
-  "final_label": "misleading state-only match",
-  "confidence": "high",
-  "verification_note": "moderate or strong state resemblance is overridden by strongly opposing approach direction",
-  "next_check": "review additional magnetic fluctuation channels before treating this as a reusable prior-risk case"
+  "reference_shot": "11768",
+  "state_similarity": 0.8044,
+  "direction_similarity": -0.1279,
+  "combined_score": 0.4022,
+  "final_label": "partial / uncertain",
+  "confidence": "medium",
+  "verification_note": "state resemblance exists, but direction compatibility is not strong enough for a confident reusable match",
+  "next_check": "inspect nearby temporal signal evolution and auxiliary diagnostics before reuse"
 }
