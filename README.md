@@ -51,6 +51,9 @@ The current prototype shows three real outcomes:
 ## How to Run
 
 ### Frontend
+## How to Run
+
+### Frontend
 
 The landing page frontend is inside the `Frontend/` folder.
 
@@ -58,57 +61,84 @@ The landing page frontend is inside the `Frontend/` folder.
 cd Frontend
 npm install
 npm run dev
+```
 
 This starts the local React + Vite development server.
 
 To create a production build:
 
+```bash
 cd Frontend
 npm install
 npm run build
-Notebook / Plasma Analysis
+```
+
+---
+
+## Notebook / Plasma Analysis
 
 The repository also includes notebook-based plasma analysis and supporting Python scripts.
 
 Create and activate a Python virtual environment.
 
-Linux / macOS
+### Linux / macOS
 
+```bash
 python -m venv .venv
 source .venv/bin/activate
+```
 
-Windows PowerShell
+### Windows PowerShell
 
+```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
 
-If you have a requirements.txt file, install dependencies with:
+If you have a `requirements.txt` file, install dependencies with:
 
+```bash
 pip install -r requirements.txt
+```
 
-If you do not have a requirements.txt file yet, install the commonly used packages manually:
+If you do not have a `requirements.txt` file yet, install the commonly used packages manually:
 
+```bash
 pip install jupyter numpy pandas matplotlib requests python-dotenv
+```
 
 Then launch Jupyter:
 
+```bash
 jupyter notebook
+```
 
-Open the relevant notebook files such as:
+Open the relevant notebook files, such as:
 
-plasma.ipynb
-plasma_working.ipynb
+- `plasma.ipynb`
+- `plasma_working.ipynb`
 
 These notebooks contain the real-shot feasibility analysis, plasma comparison workflow, and supporting experimentation for the project.
 
-Repository Notes
-Frontend/ contains the landing page and demo interface
-src/ contains Python scripts for case selection, verification, and Gemma reporting
-demo/ contains selected outputs and demo-related artifacts
-notebook files contain the plasma analysis workflow and feasibility study
-Future Direction
-<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/c452a640-9b33-4e6b-9657-21039e29312e" />
+---
+
+## Repository Notes
+
+- `Frontend/` contains the landing page and demo interface.
+- `src/` contains Python scripts for case selection, verification, and Gemma reporting.
+- `demo/` contains selected outputs and demo-related artifacts.
+- Notebook files contain the plasma analysis workflow and feasibility study.
+
+---
+
+## Future Direction
+
+<p align="center">
+  <img width="638" height="359" alt="Project future direction" src="https://github.com/user-attachments/assets/c452a640-9b33-4e6b-9657-21039e29312e" />
+</p>
 
 The next step is to expand the plasma memory bank, add richer diagnostics, improve expert validation and threshold calibration, and build a stronger scientist-facing plasma decision-support assistant.
 
-<p align="center"><i>Made with ❤️ for scientists, safer reasoning, and the future of clean energy.</i></p> ```
+<p align="center">
+  <i>Made with ❤️ for scientists, safer reasoning, and the future of clean energy.</i>
+</p>
