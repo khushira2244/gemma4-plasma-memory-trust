@@ -58,6 +58,9 @@ The current prototype shows three real outcomes:
 
 ## Future Direction
 
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/c452a640-9b33-4e6b-9657-21039e29312e" />
+
+
 The next step is to expand the plasma memory bank, add richer diagnostics, improve expert validation and threshold calibration, and build a stronger scientist-facing plasma decision-support assistant.
 
 ---
