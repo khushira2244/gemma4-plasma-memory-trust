@@ -1,38 +1,56 @@
 # Plasma Memory Trust
 
-A direction-aware plasma failure-memory system for trustworthy scientific reasoning on real tokamak shot data.
+A real-data trust layer for plasma trajectory reasoning in fusion research.
 
-## Core idea
+Plasma Memory Trust shows why **state similarity alone can mislead** when comparing risky plasma events, and why **trajectory direction** must also be verified before reuse. The system combines real tokamak shot comparisons, structured trust logic, and **Gemma 4** as the final scientist-facing explanation layer.
 
-A risky plasma event should not be matched to a prior failure case using state similarity alone. Approach direction also matters.
+---
 
-## Current status
+## Live Links
 
-This repository contains a real-data feasibility study on tokamak shots showing that:
-- state-only similarity can be misleading
-- approach direction improves failure-memory matching
-- the system can support a trust layer for Gemma 4 scientific explanations
+- **Live Demo:** [gemma4-plasma-memory-trust.netlify.app](https://gemma4-plasma-memory-trust.netlify.app/)
+- **Kaggle Writeup:** [Gemma 4 Plasma Memory Trust Writeup](https://www.kaggle.com/competitions/gemma-4-good-hackathon/writeups/gemma-4-plasma-memory-trust)
+- **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=40Ef__5901o)
 
-## Main workflow
+---
 
-1. Retriever finds relevant prior plasma cases
-2. Plasma Memory Analyst computes similarity scores
-3. Verifier checks whether the claim is supported
-4. Gemma 4 Trust Reporter explains the verified result
+## Core Workflow
 
-## Current evidence
+1. **Real tokamak shot data**
+2. **Plasma Memory Analyst** computes state similarity and trajectory direction
+3. **Case Selector** picks the most relevant structured comparison
+4. **Verifier** checks whether the label is actually supported by the evidence
+5. **Gemma 4 Trust Reporter** explains the verified result in a grounded, scientist-facing way
 
-Three real plasma shots were compared using:
-- state similarity
-- approach-direction similarity
-- combined memory-match score
+---
 
-Main finding:
-**state similarity alone is not enough for trustworthy plasma-risk comparison.**
+## Key Result
 
-## Next steps
+The current prototype shows three real outcomes:
 
-- freeze the 4-agent workflow
-- add structured schemas
-- build the first demo path
-- create landing page and UI
+- **misleading state-only match**
+- **partial / uncertain**
+- **reject**
+
+**Main finding:** state similarity alone is not enough for trustworthy plasma-risk comparison.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React + Vite
+- **Analysis pipeline:** Python
+- **Data:** real tokamak shot comparisons
+- **Explanation layer:** Gemma 4
+
+---
+
+## Future Direction
+
+The next step is to expand the plasma memory bank, add richer diagnostics, improve expert validation and threshold calibration, and build a stronger scientist-facing plasma decision-support assistant.
+
+---
+
+## Project Goal
+
+Build a more grounded, interpretable, and trustworthy plasma-risk reasoning workflow for future fusion science.
