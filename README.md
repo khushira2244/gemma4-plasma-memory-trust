@@ -1,4 +1,15 @@
-# Plasma Memory Trust
+
+
+
+
+
+
+
+# Gemma4 Plasma Memory Trust
+
+
+<img width="923" height="464" alt="image" src="https://github.com/user-attachments/assets/444d31a0-05eb-4eb1-af1b-5a6bca141258" />
+
 
 A real-data trust layer for plasma trajectory reasoning in fusion research.
 
