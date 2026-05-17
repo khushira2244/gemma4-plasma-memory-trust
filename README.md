@@ -1,15 +1,6 @@
-
-
-
-
-
-
-
 # Gemma4 Plasma Memory Trust
 
-
 <img width="923" height="464" alt="image" src="https://github.com/user-attachments/assets/444d31a0-05eb-4eb1-af1b-5a6bca141258" />
-
 
 A real-data trust layer for plasma trajectory reasoning in fusion research.
 
@@ -56,15 +47,13 @@ The current prototype shows three real outcomes:
 
 ---
 
-## Future Direction
+## How to Run
 
-<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/c452a640-9b33-4e6b-9657-21039e29312e" />
+### Frontend
 
+The landing page frontend is inside the `Frontend/` folder.
 
-The next step is to expand the plasma memory bank, add richer diagnostics, improve expert validation and threshold calibration, and build a stronger scientist-facing plasma decision-support assistant.
-
----
-
----
-
-<p align="center"><i>Made with ❤️ for scientists, safer reasoning, and the future of clean energy.</i></p>
+```bash
+cd Frontend
+npm install
+npm run dev
