@@ -1,3 +1,4 @@
+can you give whole things in markdown please, this is last thing 
 # Gemma4 Plasma Memory Trust
 
 <img width="923" height="464" alt="image" src="https://github.com/user-attachments/assets/444d31a0-05eb-4eb1-af1b-5a6bca141258" />
@@ -57,3 +58,57 @@ The landing page frontend is inside the `Frontend/` folder.
 cd Frontend
 npm install
 npm run dev
+
+This starts the local React + Vite development server.
+
+To create a production build:
+
+cd Frontend
+npm install
+npm run build
+Notebook / Plasma Analysis
+
+The repository also includes notebook-based plasma analysis and supporting Python scripts.
+
+Create and activate a Python virtual environment.
+
+Linux / macOS
+
+python -m venv .venv
+source .venv/bin/activate
+
+Windows PowerShell
+
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+If you have a requirements.txt file, install dependencies with:
+
+pip install -r requirements.txt
+
+If you do not have a requirements.txt file yet, install the commonly used packages manually:
+
+pip install jupyter numpy pandas matplotlib requests python-dotenv
+
+Then launch Jupyter:
+
+jupyter notebook
+
+Open the relevant notebook files such as:
+
+plasma.ipynb
+plasma_working.ipynb
+
+These notebooks contain the real-shot feasibility analysis, plasma comparison workflow, and supporting experimentation for the project.
+
+Repository Notes
+Frontend/ contains the landing page and demo interface
+src/ contains Python scripts for case selection, verification, and Gemma reporting
+demo/ contains selected outputs and demo-related artifacts
+notebook files contain the plasma analysis workflow and feasibility study
+Future Direction
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/c452a640-9b33-4e6b-9657-21039e29312e" />
+
+The next step is to expand the plasma memory bank, add richer diagnostics, improve expert validation and threshold calibration, and build a stronger scientist-facing plasma decision-support assistant.
+
+<p align="center"><i>Made with ❤️ for scientists, safer reasoning, and the future of clean energy.</i></p> ```
