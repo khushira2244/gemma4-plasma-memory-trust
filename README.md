@@ -65,6 +65,6 @@ The next step is to expand the plasma memory bank, add richer diagnostics, impro
 
 ---
 
-## Project Goal
+---
 
-Build a more grounded, interpretable, and trustworthy plasma-risk reasoning workflow for future fusion science.
+<p align="center"><i>Made with ❤️ for scientists, safer reasoning, and the future of clean energy.</i></p>
